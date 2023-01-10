@@ -1,3 +1,13 @@
+# Goal with the project
+Sign in page:
+    logo
+    user name
+    password
+
+    Accept everything. on next page: display Welcome <user name>
+
+
+sasd
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
