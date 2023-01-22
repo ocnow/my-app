@@ -1,11 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import './login/login'
-import LoginForm from './login/login';
+import Login  from './login';
+import PostLogin from './postLogin';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
-  return (
-      <LoginForm />
+  return ( 
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/logined" element={<PostLogin  />}/>
+      </Routes>
+    </Router>
+    
   );
 }
 
